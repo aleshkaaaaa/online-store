@@ -34,6 +34,7 @@ export default class DeviceStore {
             {id: 14, name: 'Iphone 12 pro', price: 25000, rating: 5, img: 'https://static.fnac-static.com/multimedia/Images/FR/MDM/1f/3b/32/20069151/3756-1/tsp20230417170657/Apple-iPhone-14-Pro-6-1-5G-Double-SIM-128-Go-Violet-intense.jpg'},
             {id: 15, name: 'Iphone 12 pro', price: 25000, rating: 5, img: 'https://static.fnac-static.com/multimedia/Images/FR/MDM/1f/3b/32/20069151/3756-1/tsp20230417170657/Apple-iPhone-14-Pro-6-1-5G-Double-SIM-128-Go-Violet-intense.jpg'},
             {id: 16, name: 'Iphone 12 pro', price: 25000, rating: 5, img: 'https://static.fnac-static.com/multimedia/Images/FR/MDM/1f/3b/32/20069151/3756-1/tsp20230417170657/Apple-iPhone-14-Pro-6-1-5G-Double-SIM-128-Go-Violet-intense.jpg'},
+            
         ]
         this._selectedType = {}
         this._selectedBrand = {}

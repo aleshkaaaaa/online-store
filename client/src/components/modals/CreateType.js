@@ -1,6 +1,7 @@
 import React from "react";
 import Button from 'react-bootstrap/Button';
 import Modal from 'react-bootstrap/Modal';
+import Form from "react-bootstrap/esm/Form";
 
 const CreateType = ({show, onHide}) => {
     return (
@@ -17,11 +18,14 @@ const CreateType = ({show, onHide}) => {
             </Modal.Header>
             <Modal.Body>
                 <Form>
-                    <Form.Control/>
+                    <Form.Control
+                        placeholder={"Введите название типа"}
+                    />
                 </Form>
             </Modal.Body>
             <Modal.Footer>
-                <Button onClick={onHide}>Закрыть</Button>
+                <Button variant={"outline-success"} onClick={onHide}>Добавить</Button>
+                <Button variant={"outline-danger"} onClick={onHide}>Закрыть</Button>
             </Modal.Footer>
         </Modal>
     )
